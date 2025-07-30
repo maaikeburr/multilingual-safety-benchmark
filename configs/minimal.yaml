@@ -1,0 +1,26 @@
+# MSB Minimal Configuration
+# A minimal configuration for quick testing
+
+models:
+  openai:
+    api_key: ${OPENAI_API_KEY}
+    default_model: gpt-3.5-turbo
+    max_tokens: 500
+    temperature: 0.7
+
+evaluation:
+  batch_size: 16
+  max_samples: 10  # Small sample for testing
+  languages:
+    - en
+  metrics:
+    - safety
+  output_dir: results/test
+
+metrics:
+  safety:
+    toxicity_threshold: 0.7
+    harm_categories:
+      - violence
+      - hate
+    check_bias: false
