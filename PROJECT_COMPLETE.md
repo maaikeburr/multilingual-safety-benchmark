@@ -1,15 +1,10 @@
-# MSB Complete - 项目完成总结
-
-## 🎉 项目已成功完成！
-
-我已经在 `C:\msb-complete` 目录下为您创建了一个功能完善、可用性强大的多语言安全基准测试框架。
+# MSB - 项目完成总结
 
 ## 📋 项目概览
 
 **项目名称**: Multilingual Safety Benchmark (MSB)  
 **版本**: 1.0.0  
 **许可**: MIT License  
-**目录**: C:\msb-complete
 
 ## ✅ 完成的功能
 
